@@ -1,0 +1,510 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style2.css" />
+  <title>Krishnakumar R</title>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Krishnakumar" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="https://militiaking.github.io/" />
+  <meta property="og:site_name" content="Krishnakumar" />
+
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <link rel="icon" href="/assets/img/logokk.png" type="image/icon type">
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/logokk.png" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span><b>About</b></span></a>
+      </li>
+      <!--
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+    -->
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span><b>Projects</b></span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span><b>Skills</b></span></a>
+      </li>
+      
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span><b>Education</b></span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span><b>Contact</b></span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open KK's resume" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span onclick="helper()"><b>Resume</b></span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text"><b>KRISHNAKUMAR</b> 
+        </a><span class="green-text">Developer | Programmer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span><b>About</b></span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span><b>Projects</b></span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span><b>Skills</b></span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span><b>Education</b></span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span><b>Contact</b></span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open KK's Resume" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span onclick="helper()"><b>Resume</b></span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'></div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2><span class="myname">KRISHNAKUMAR</span></h2>
+              <h5>Budding Programmer and App Developer</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/krishnakumarr017/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/Militiaking" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              <a href="https://www.instagram.com/krishnakumarr_17_/" target="_blank">
+                <button class="icon-btn instagram">
+                  <i class="fa fa-instagram"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme"><b>Explore</b></a>
+              <a href="#contact" class="contactme"><b>Contact Me</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal"><b>About</b></h3>
+      <div class="container flow-text">
+        <p>
+          I am a Student from Madras Institute of Technology. 
+        </p>
+        <p>
+          I Love to build creative stuffs. Love building Softwares and Apps.
+        </p>
+      </div>
+    </section>
+
+    
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal"><b>Projects</b></h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/newsapp.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">News Web-App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A News app based on Django
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
+                  <li>Current Live News 24/7.</li>
+                  <li>Used News API to fetch Hot news from the other endpoint.</li>
+                  <li>Used cool background animations.</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://militiaking-news.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light green-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Militiaking/NewsApp"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light green-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/quizapp.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Quiz Web-App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Multiplayer Single page quiz app based on React
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> React, HTML, CSS, JS, Bootstrap, Firebase</li>
+                  <li>Register/login to the web app.</li>
+                  <li>Play with friends and see the leaderboard</li>
+                  <li>Scores will be displayed in graphs using plotting libraries</li>
+                  <li>We have around 50 Users</li>
+                  <li><b>Colleagues:</b> Agilan and Sundara Lingam.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://quizinato.web.app/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light green-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/3-bro-grammers/Quizz_app"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light green-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal"><b>Skills</b></h3>
+      <div class="container">
+        <!-- Languages-->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="green-text thick">Languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/java.png" class="responsive-img" />Java
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/cpp.png" class="responsive-img" />C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c.png" class="responsive-img" />C
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matlab.png" class="responsive-img" />MatLab
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h4 class="green-text thick">Web Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javascript.png" class="responsive-img" />CSS3
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="green-text thick">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/react.png" class="responsive-img" />React
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="green-text thick">Others</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal"><b>Education</b></h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://mitindia.edu/en/" target="_blank" class="teal-text hoverline">Madras Institute of Technology, Anna University</a></span>
+                </p>
+                <p class="brown-text">Chrompet, Chennai, India</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Engineering in  Electronics and Communication       
+                  <br>
+                  <b>CGPA: </b>9.40/10
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Digital Electronics and VLSI Design</li>
+                    <li>Web Technology</li>
+                    <li>Data Structures and Algorithms</li>                    
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a target="_blank" class="teal-text hoverline">
+                      Chinmaya Vidyalaya Mat.Hr.Sec School</a></span>
+                </p>
+                <p class="brown-text">Rajapalayam, TamilNadu</p>
+                <p>
+                  <b>Course: </b>Higher Secondary Education(HSC)
+                  <br>
+                  <b>Score: </b>95.25%
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a target="_blank" class="teal-text hoverline">
+                      Chinmaya Vidyalaya Mat.Hr.Sec School</a></span>
+                </p>
+                <p class="brown-text">Rajapalayam, TamilNadu</p>
+                <p>
+                  <b>Course: </b>Secondary School Leaving Certificate(SSLC)
+                  <br>
+                  <b>Score: </b>97.60%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal"><b>Contact</b></h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call KK" data-position="top" data-tooltip="Call KK"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call KK">+91 6379402247</a></a>
+        </p>
+        <p>
+          <a aria-label="Email KK" href="mailto:krishnakumarrmail@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email KK" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email KK" href="mailto:krishnakumarrmail@gmail.com"
+              class="hoverline">krishnakumarrmail@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View KK on GitHub" href="https://github.com/Militiaking" target="_blank"
+            data-position="top" data-tooltip="View KK on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="KK on Github" href="https://github.com/Militiaking" class="hoverline"
+              target="_blank">github.com/Militiaking</a></a>
+        </p>
+        <p>
+          <a aria-label="View KK on LinkedIn" href="https://www.linkedin.com/in/krishnakumarr017" target="_blank"
+            data-position="top" data-tooltip="View KK on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="KK on LinkedIn" href="https://www.linkedin.com/in/krishnakumarr017"
+              class="hoverline" target="_blank">linkedin.com/in/krishnakumarr017</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    function helper() {
+      alert("Resume Will be Uploaded Soon =)");
+    }
+
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
