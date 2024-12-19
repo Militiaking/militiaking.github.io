@@ -409,6 +409,19 @@ h3 {
   max-height: 60px;
 }
 
+#achievements .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+
+#achievements .card .col.s12.m2 a {
+  display: block;
+}
+
+#achievements .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+
 .card-action span {
   font-size: 85%;
   color: #666;
@@ -483,6 +496,10 @@ a.hoverline:hover {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
 }
+#achievements .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
 
 .card.large .card-image {
   height: 230px;
@@ -507,6 +524,10 @@ a.hoverline:hover {
 }
 
 #experience .col.s12.m2 {
+  text-align: center;
+}
+
+#achievements .col.s12.m2 {
   text-align: center;
 }
 
@@ -539,6 +560,10 @@ small {
   #experience .container {
     width: 860px;
   }
+  #achievements .container {
+    width: 860px;
+  }
+
 }
 
 @media (max-width: 1360px) {
@@ -640,6 +665,13 @@ small {
     display: block;
   }
   #experience span.card-title a {
+    margin: 0;
+  }
+  #achievements span.card-title {
+    text-align: center;
+    display: block;
+  }
+  #achievements span.card-title a {
     margin: 0;
   }
   i.mdi-navigation-close.right {
