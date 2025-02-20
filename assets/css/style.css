@@ -65,6 +65,15 @@
   color:darkmagenta;
 }
 
+.leetcode {
+  color:rgb(236, 214, 15);
+}
+
+.leetcode-icon {
+  width: 25px; /* Adjust size as needed */
+  height: 25px; /* Adjust size as needed */
+  vertical-align: middle; /* Aligns the icon properly with the button */
+}
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
