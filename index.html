@@ -79,7 +79,7 @@
       </li>
 
       <li class="bold">
-        <a aria-label="Open KK's resume" target="_blank" href="https://drive.google.com/file/d/1nn6l4vBz7JbwcV0GB7eWzQqtb5c_zuM1/view?usp=sharing"
+        <a aria-label="Open KK's resume" target="_blank" href="https://drive.google.com/file/d/17JdVWLHxi8f_ed_vgLqcyEoufmlxIpnl/view?usp=sharing"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span><b>Resume</b></span></a>  
       </li>
     </ul>
@@ -91,7 +91,7 @@
       class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     <div class="name-title">
       <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text"><b>KRISHNAKUMAR</b> 
-        </a><span class="green-text">Software Engineer</span>
+        </a><span class="green-text">Senior Software Engineer</span>
     </div>
   </nav>
 
@@ -165,6 +165,11 @@
                   <i class="fa fa-instagram"></i>
                 </button>
               </a>
+              <a href="https://leetcode.com/kk_r_17/" target="_blank">
+                <button class="icon-btn leetcode">
+                  <img src="assets/img/leetcode.svg" alt="LeetCode" class="leetcode-icon">
+                </button>
+              </a>
             </div>
             <div class='buttons'>
               <a href="#about" class="readme"><b>Explore</b></a>
@@ -180,10 +185,11 @@
       <h3 class="page-title white-text teal"><b>About</b></h3>
       <div class="container flow-text">
         <p>
-          Senior Software Engineer with 2.5+ years of experience developing highly scalable full‑stack solutions and distributed systems for Visa Cloud Platform.
-Skilled in applying SOLID design principles, design patterns, and conducting thorough code reviews to ensure code quality and maintainability.
-Proven ability to drive data‑driven strategies across cross‑functional teams to achieve business objectives. Passionate about solving challenging
-problems (1950+ Leetcode contest rating) and continuous learning through reading and self‑improvement
+          Senior Software Engineer with over 2.8+ years of experience designing and developing highly scalable full‐stack solutions and distributed systems
+for Visa’s Platform as a Service (PaaS) team. Experience adopting SOLID design principles, utilizing design patterns, and guaranteeing excellent code
+quality for maintainability and scalability. Capable of driving data‐driven strategies across cross‐functional teams to achieve and exceed company
+goals. Passionate about solving complex technological problems (1980+ LeetCode contest rating) and dedicated to constant progress via learning
+and self‐improvement.
         </p>
       </div>
     </section>
@@ -217,23 +223,26 @@ problems (1950+ Leetcode contest rating) and continuous learning through reading
                 </table>
                 <ul>
                   <li>
-                    Led the development of an Active‑Passive application running with an Active‑Active MySQL database architecture, enabling seamless data center
-failovers with minimal RPO and RTO.
+                    Architected an Active‐Passive application system with Active‐Active MySQL clustering, reducing Recovery Time Objective (RTO) to less than a
+minute and Recovery Point Objective (RPO) to near‐zero during data center failovers.
                   </li>
                   <li>
-                    Implemented a solution to resolve replication failures in the Open‑source Activiti BPMN framework under an Active‑Active architecture by leverag‑
-ing Hazelcast’s distributed caching strategy. Coordinated and optimized Activiti workflows to ensure consistent performance and high availability.
+                    Customized opensource Activiti BPMN framework to support Active‐Active architecture by integrating Hazelcast’s distributed locking, en‐
+abling conflict‐free workflow execution across clusters and eliminated replication failures, improving workflow throughput by 40%.
                   </li>
                   <li>
-                    Designed and implemented a data archival strategy, efficiently archiving over 50 million rows, reducing query response times by 70% and ensuring
-low‑latency responses for critical application flows.
+                    Engineered disaster recovery (DR) protocols for an Active‐Active high‐scale application, ensuring seamless failovers between data centers. Imple‐
+mented an intra‐DC leader election algorithm to synchronize state, achieving zero downtime during outages.
                   </li>
                   <li>
-                    Conducted thorough code reviews, emphasizing SOLID design principles and design patterns, reducing post‑deployment bugs by 35% through
-early identification during the review phase.
+                    Designed a data archival strategy using SQL procedures and quartz scheduler, archiving 50M+ rows and reducing query latency by 70%.
                   </li>
                   <li>
-                    Mentored junior developers, resolving blockers and accelerating their onboarding, contributing to a 10% improvement in team productivity.
+                    Championed code quality by enforcing SOLID design principles in code reviews, reducing post‐deployment bugs by 35% across various projects.
+                  </li>
+                  <li>
+                    Mentored 4 junior developers on distributed systems debugging, resolving critical blockers and hosted monthly project deep dives, boosting
+team productivity.
                   </li>
                 </ul>
               </div>
@@ -246,29 +255,29 @@ early identification during the review phase.
                 </table>
                 <ul>
                   <li>
-                    Led the development of a critical flow, including optimising the existing process by 90% for critical integrations like Red Button Disaster Recovery
-Service, resulting in improved efficiency and an increase in user onboarding by 40%.
+                    Streamlined critical application workflows using Quartz & Hazelcast, slashing execution time by 90% for systems like the Red Button Disaster
+Recovery Service. Boosted user onboarding by 40%.
                   </li> 
                   <li>
-                    Led the migration of the application from Angular 9 to Angular 15, updating breaking dependencies and ensuring a seamless user experience post‑
-                    migration.
+                    Upgraded application framework from Angular 9 to Angular 15, resolving dependency conflicts and delivering a modernized UI/UX with no pro‐
+duction impact.
                   </li>
                   <li>
-                    Developed a new page for viewing server‑level status and logs, reducing manual effort and improving operational efficiency by 60%.
+                    Designed and implemented a server‐level status and logs feature by parsing batch logs from ansible into individual server logs and outputs, re‐
+ducing manual effort by 60% and increased log retention period to 1 month by moving logs to elasticsearch.
                   </li>
                   <li>
-                    Played a key role in achieving zero‑downtime migration from MongoDB to MySQL for an application handling 1 million requests per month, ensuring
-data integrity and continuous service availability.
+                    Designed critical flows for zero‐downtime migration from MongoDB to MySQL for a high‐traffic app (1M+ monthly requests), ensuring 100% data
+integrity.
                   </li>
                   <li>
-                    Improved system performance by analyzing heap dumps and resolving CPU and memory spikes. Enhanced system reliability by fixing concurrency‑
-related bugs, resulting in more stable and efficient operations.
+                    Resolved performance issues by analyzing java heap and thread dumps, fixing CPU/memory spikes, and eliminating concurrency bottlenecks.
                   </li>
                 </ul>
               </div>
               <div class="card-content">
-                <b>Tools:</b> Java, Spring Boot, Angular, MongoDB, Mysql, Activiti, Quartz, Hazelcast, Splunk<br>
-                <b>Skillset:</b> Java Concurrency, Distributed Systems, Data Structures, Algorithms, System Design, Code Reviews
+                <b>Tools:</b> Java, Spring Boot, Angular, MongoDB, Mysql, Activiti, Quartz, Hazelcast, Splunk, Ansible, Docker<br>
+                <b>Skillset:</b> Java Concurrency, Distributed Systems, Data Structures, Algorithms, System Design, Code Reviews, Low Level Design, High Level Design
               </div>
               <div class="card-action">
                 <span>June 2022 - Present | Bengaluru, Karnataka, India</span>
