@@ -99,7 +99,7 @@ h4 { font-size: 1rem; }
   font-size: 0.875rem;
 }
 
-.desktop-nav > a:not(.button) { padding-block: 12px; color: var(--body); }
+.desktop-nav > a { padding-block: 12px; color: var(--body); }
 .desktop-nav > a:hover { color: var(--text); }
 
 .button {
@@ -120,16 +120,6 @@ h4 { font-size: 1rem; }
 .button-primary { background: var(--accent); color: var(--button-text); }
 .button-primary:hover { background: var(--accent-hover); color: var(--button-text); }
 
-.button-small {
-  min-height: 40px;
-  padding: 7px 14px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  gap: 7px;
-}
-
-.button-outline { border-color: #59667b; color: var(--accent); }
-.button-outline:hover { border-color: var(--accent); }
 .intro { padding-block: 65px 48px; }
 .greeting { font-size: 1rem; }
 
@@ -149,14 +139,6 @@ h4 { font-size: 1rem; }
   align-items: center;
   gap: 24px;
   margin-top: 25px;
-}
-
-.contact-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  min-height: 44px;
-  font-size: 0.9375rem;
 }
 
 .social-links {
@@ -380,7 +362,6 @@ h4 { font-size: 1rem; }
   .role { font-size: 1.125rem; }
   .intro-actions { align-items: stretch; flex-direction: column; gap: 6px; margin-top: 23px; }
   .button-primary { min-height: 48px; }
-  .contact-link { justify-content: center; }
   .social-links { column-gap: 24px; margin-top: 10px; }
   .social-links a { min-height: 44px; padding-block: 10px; }
   .company-heading, .entry-heading { align-items: flex-start; flex-direction: column; gap: 2px; }
